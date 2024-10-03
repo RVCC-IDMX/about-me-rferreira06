@@ -1,0 +1,68 @@
+body {
+  font-family: Bitter, "Times New Roman", serif;
+  background-color: #9696AA;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sixtyfour Convergence", system-ui;
+  border: 3px solid #050567;
+  background-color: #FFD519;
+  border-radius: 5rem;
+  color: #050567;
+  line-height: 5rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+
+
+}
+
+.NameandLocation {
+  font-family: "Sixtyfour Convergence", system-ui;
+  text-align: center;
+  color: #050567;
+  size: 1rem;
+  border: 3px solid;
+  border-radius: 5rem;
+  background-color: #FFD519;
+  border-color: #6363E5;
+  line-height: 3rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+
+
+}
+
+#hero img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 5px solid #050567;
+  border-radius: 4rem;
+  background-color: #FFD519;
+}
+
+.class1 {
+  border: 3px solid #6363E5;
+  border-radius: 4rem;
+  background-color: #FFD519;
+  font-family: "Inconsolata", system-ui;
+  color: #050567;
+  text-align: center;
+  size: 2rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+h5 {
+  text-align: center;
+  font-family: "Sixtyfour Convergence", system-ui;
+  size: 2px;
+  border: 2px solid #050567;
+  background-color: #FFD519;
+  border-radius: 5rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+  line-height: 3rem;
+}
