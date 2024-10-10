@@ -111,6 +111,26 @@ line-height: 3rem;}
   margin-right: 35rem;
   line-height: 3rem;
 }
+ #article p {
+  font-family: "Inconsolata", system-ui;
+  color:#050567;
+  background-color:#FFD519;
+
   
+ }
+ .title {
+
+  text-align:center;
+  font-family: "Sixtyfour Convergence", system-ui;
+  size: 1px;
+  border: 3px solid #050567;
+  border-radius: 4rem;
+  background-color: #FFD519;
+  color: #050567;
+  margin-left: 50rem;
+  margin-right: 35rem;
+  line-height: 3rem;
+
+ }
 
 
