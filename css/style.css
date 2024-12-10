@@ -6,131 +6,102 @@ body {
 h1 {
   text-align: center;
   font-family: "Sixtyfour Convergence", system-ui;
-  border: 3px solid #050567;
   background-color: #FFD519;
-  border-radius: 5rem;
   color: #050567;
   line-height: 5rem;
-  margin-left: 35rem;
-  margin-right: 35rem;
-
-
+}
+h2 {
+  margin: .1em;
 }
 
 .NameandLocation {
   font-family: "Sixtyfour Convergence", system-ui;
-  text-align: center;
   color: #050567;
-  size: 1rem;
-  border: 3px solid;
-  border-radius: 5rem;
   background-color: #FFD519;
   border-color: #6363E5;
   line-height: 3rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
-
-
 }
 
 #hero img {
   width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: 5px solid #050567;
-  border-radius: 4rem;
   background-color: #FFD519;
+
 }
 
 .class1 {
-  border: 3px solid #6363E5;
-  border-radius: 4rem;
   background-color: #FFD519;
   font-family: "Inconsolata", system-ui;
   color: #050567;
-  text-align: center;
-  size: 2rem;
-  margin-left: 25rem;
-  margin-right: 25rem;
 }
 
 h5 {
-  text-align: right;
+  
   font-family: "Sixtyfour Convergence", system-ui;
-  size: 2px;
-  border: 2px solid #050567;
   background-color: #FFD519;
-  border-radius: 5rem;
   line-height: 3rem;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
 }
 
 #hobbies {
   font-family: "Inconsolata", system-ui;
-  size: 2rem;
-  border: 3px solid #6363E5;
-  border-radius: 4rem;
   background-color: #FFD519;
   color: #050567;
-  text-align: center;
-  margin-left: 25rem;
-  margin-right: 25rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;  
 }
-.container {
-border: 3px solid #FFD519;
-border-radius: 5rem;
-margin-bottom: 1px;
-float:left;
-width:10%;
 
-}
+
 #gallery h2 {
-text-align:center;
 font-family: "Sixtyfour Convergence", system-ui;
-size: 2rem;
-border: 3px solid #6363E5;
-border-radius: 4rem;
 background-color: #FFD519;
 color: #050567;
-margin-left: 25rem;
-margin-right: 25rem;
 line-height: 3rem;}
 
 #gallery figcaption {
   text-align:center;
   font-family: "Sixtyfour Convergence", system-ui;
-  size: 2rem;
-  border: 3px solid #6363E5;
-  border-radius: 4rem;
   background-color: #FFD519;
   color: #050567;
-  margin-left: 50rem;
-  margin-right: 35rem;
-  line-height: 3rem;
+  font-size: 1rem;
+  
 }
- #article p {
+
+ #article {
   font-family: "Inconsolata", system-ui;
   color:#050567;
   background-color:#FFD519;
-
+  display:flex;
+  flex-direction: column;
   
  }
  .title {
 
   text-align:center;
   font-family: "Sixtyfour Convergence", system-ui;
-  size: 1px;
-  border: 3px solid #050567;
-  border-radius: 4rem;
-  background-color: #FFD519;
+  background-color: #FFD519; 
   color: #050567;
-  margin-left: 50rem;
-  margin-right: 35rem;
   line-height: 3rem;
+ }
+ @media screen and (min-width:60em) {
+  figure {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  figcaption {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+
+
+  }
+
+
 
  }
+
+
+
 
 
