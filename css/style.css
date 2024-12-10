@@ -103,7 +103,14 @@ h5 {
   color: #050567;
   line-height: 3rem;
   border: 3px solid #050567;
-
+}
+#myVideo {
+ border: 3px solid #6363E5;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 1%;
+ background-color: #050567;
 }
 
 @media screen and (max-width:59em) {
@@ -116,11 +123,17 @@ h5 {
     flex-direction: column;
     align-items: center;
   }
-
   #article {
     max-width: 100%;
     columns: 10rem;
   }
+  #myVideo {
+    height: 300px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+    justify-content:center;
+   }
 }
 
 @media screen and (min-width:60em) {
@@ -128,7 +141,6 @@ h5 {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
-
   figcaption {
     display: flex;
     justify-content: center;
@@ -136,7 +148,6 @@ h5 {
     font-size: 2rem;
     margin-left: 1rem;
   }
-
   figure img {
     width: 100%;
   }
