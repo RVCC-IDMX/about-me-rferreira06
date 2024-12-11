@@ -112,6 +112,9 @@ h5 {
  margin-top: 1%;
  background-color: #050567;
 }
+#formElements {
+  display:grid;
+}
 
 @media screen and (max-width:59em) {
   figure img {
@@ -132,7 +135,6 @@ h5 {
     width: 300px;
     resize: both;
     overflow: auto;
-    justify-content:center;
    }
 }
 
